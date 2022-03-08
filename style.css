@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: blueviolet;
+}
+canvas{
+    animation-name: change;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    from{box-shadow: 1px 1px 40px greenyellow;}
+    to{box-shadow: 1px 1px 40px purple;}
+}
